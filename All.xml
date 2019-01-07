@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule language="beanshell" name="All" type="Refresh">
+  <Source>
+  import org.apache.log4j.Logger;
+  Logger logger=Logger.getLogger("new");
+  String c=("cat");
+  logger.info("fuck up "+ c);
+ 
+  </Source>
+</Rule>
