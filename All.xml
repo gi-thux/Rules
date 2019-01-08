@@ -5,7 +5,7 @@
   import org.apache.log4j.Logger;
   Logger logger=Logger.getLogger("new");
   String c=("cat");
-  logger.info("fuck up "+ c);
+  logger.info("fuck up man "+ c);
  
   </Source>
 </Rule>
